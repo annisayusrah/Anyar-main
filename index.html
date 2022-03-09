@@ -43,9 +43,9 @@
   <header id="header" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Anyar</a></h1>
+      <!-- <h1 class="logo"><a href="index.html">Anyar</a></h1>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -165,7 +165,7 @@
       </div>-->
     </section><!-- End About Us Section -->
 
-    <!-- ======= Clients Section ======= -->
+    <!-- ======= Clients Section 
     <section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
 
@@ -191,23 +191,19 @@
       <div class="container-fluid">
 
         <div class="row">
-
           <div class="col-lg-5 align-items-stretch position-relative video-box" style='background-image: url("assets/img/why-us.jpg");' data-aos="fade-right">
             <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn mb-4"></a>
           </div>
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
-
-            <div class="content">
-              <h3> <strong>Visi Perusahaan</strong></h3>
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left" style= "margin-bottom: 1cm;">
+            <div class="content" style="color: #336b14; text-align: left;">
+              <h3 style="font-weight: bold;">VISI PERUSAHAAN</h3>
             </div>
 
-            <div class="isi_visi">Menjadi perusahaan agriculture penghasil nano-silika yang unggul dengan berwawasan lingkungan, menjadi solusi permasalahan dalam dunia pertanian dan mampu memenuhi kebutuhan pelanggan </div>
-
+            <div class="isi_visi">Menjadi perusahaan agriculture penghasil nano-silika yang unggul dengan berwawasan lingkungan, 
+              menjadi solusi permasalahan dalam dunia pertanian dan mampu memenuhi kebutuhan pelanggan
+            </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Why Us Section -->
 
@@ -395,10 +391,9 @@
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <div class="row">
+        <div class="row" style="display: flex; justify-content: center; align-items: center;">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member d-flex align-items-start">
@@ -451,29 +446,12 @@
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </div>
     </section><!-- End Team Section -->
 
-    <!-- ======= Pricing Section ======= -->
+    <!-- ======= Pricing Section 
     <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -558,8 +536,74 @@
       </div>
     </section><!-- End Pricing Section -->
 
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-title">
+              <h2>Contact Us</h2>
+            </div>
+    
+            <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
+    
+              <div class="col-lg-5">
+                <div class="info">
+                  <div class="address">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4>Location:</h4>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                  </div>
+    
+                  <div class="email">
+                    <i class="bi bi-envelope"></i>
+                    <h4>Email:</h4>
+                    <p>info@example.com</p>
+                  </div>
+    
+                  <div class="phone">
+                    <i class="bi bi-phone"></i>
+                    <h4>Call:</h4>
+                    <p>+1 5589 55488 55s</p>
+                  </div>
+    
+                </div>
+    
+              </div>
+    
+              <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
+    
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+    
+              </div>
+    
+            </div>
+    
+          </div>
+        </section><!-- End Contact Section -->
+
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <section id="faq" class="faq section-bg" style="background: linear-gradient(#ffffff, rgb(68,133,28,0.5))">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -619,77 +663,12 @@
       </div>
     </section><!-- End Frequently Asked Questions Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact Us</h2>
-        </div>
-
-        <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
-
-          <div class="col-lg-5">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
+    <!--
     <div class="footer-newsletter">
       <div class="container">
         <div class="row">
@@ -705,6 +684,7 @@
         </div>
       </div>
     </div>
+    -->
 
     <div class="footer-top">
       <div class="container">
